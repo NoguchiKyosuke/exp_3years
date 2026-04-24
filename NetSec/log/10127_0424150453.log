@@ -1,0 +1,32 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.04.24 15:04:53 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "p3-web127".
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+]0;p3-web127@p3-web127: ~p3-web127@p3-web127:~$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          497M       141M       355M         0B        15M        76M
+-/+ buffers/cache:        49M       447M
+Swap:           0B         0B         0B
+]0;p3-web127@p3-web127: ~p3-web127@p3-web127:~$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+vda    254:0    0   7.6G  0 disk 
+|-vda1 254:1    0   7.6G  0 part /
+|-vda2 254:2    0     1K  0 part 
+`-vda5 254:5    0   640K  0 part 
+]0;p3-web127@p3-web127: ~p3-web127@p3-web127:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP qlen 1000
+    link/ether 52:54:00:52:d0:d3 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.197/16 brd 192.168.255.255 scope global eth0
+    inet6 fe80::5054:ff:fe52:d0d3/64 scope link 
+       valid_lft forever preferred_lft forever
+]0;p3-web127@p3-web127: ~p3-web127@p3-web127:~$ 

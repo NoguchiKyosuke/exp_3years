@@ -155,7 +155,8 @@ VMMにはホスト型VMMとハイパーバイザ型VMMの2種類がある。
 
 \section{実験環境}
 
-本実験で使用したWebサーバのスペックを以下の表\ref{tab:WebServerSpec}に示す。
+本実験で使用したWebサーバのスペックを以下の表\ref{tab:WebServerSpec}に示す。\\
+ここで、CPUのスペックの確認のコマンドは"lscpu"、メモリのスペックの確認のコマンドは"free -h"、ストレージのスペックの確認のコマンドは"lsblk"、ネットワークのスペックの確認のコマンドは"ip addr"、OSのスペックの確認のコマンドは"cat /etc/os-release"を使用した。
 
 \begin{table}[htbp]
     \centering
@@ -163,19 +164,51 @@ VMMにはホスト型VMMとハイパーバイザ型VMMの2種類がある。
     \label{tab:WebServerSpec}
     \begin{tabular}{|c|c|}
         \hline
-        CPU & 4コア \\
+        CPU & 1コア 3.4GHz \\
         \hline
-        メモリ & 8GB \\
+        メモリ & 500MB \\
         \hline
-        ストレージ & 100GB SSD \\
+        ストレージ & 7.6GB \\
         \hline
-        ネットワーク & 1Gbps Ethernet \\
+        IPアドレス & 192.168.1.197 \\
+        \hline
+        OS & Debian GNU/Linux 7 \\
         \hline
     \end{tabular}
 \end{table}
 
+本実験で使用した攻撃用サーバのスペックを以下の表\ref{tab:AttackerServerSpec}に示す。
+
+\begin{table}[htbp]
+    \centering
+    \caption{攻撃用サーバのスペック}
+    \label{tab:AttackerServerSpec}
+    \begin{tabular}{|c|c|}
+        \hline
+        CPU & 1コア 3.4GHz \\
+        \hline
+        メモリ & 500MB \\
+        \hline
+        ストレージ & 8GB \\
+        \hline
+        IPアドレス & 192.168.2.198 \\
+        \hline
+        OS & Debian GNU/Linux 7 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+また、攻撃用サーバにおいては、一つのサーバ内に複数のIPアドレスを生成するためセカンダリIPアドレスが、"192.198.197.1"から"192.198.197.150"まで生成されている。
+
+実験に使用する攻撃ツールとして、"curl-loader"を使用する。
+curl-loaderはC言語で書かれたWebアプリケーションに対する攻撃ツールの一つである。
+一つのマシン上で複数のIPアドレスを使用して、リクエストの再生成を行うDDoS攻撃の一つである。
+
 \section{実験課題}
 \subsection{基礎実験}
+
+
+
 \subsection{攻撃者判定実験}
 
 \section{実験結果}

@@ -1,0 +1,640 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.04.24 14:37:06 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "p3-atk127".
+p3-atk127@133.15.41.21's password: 
+Access denied
+p3-atk127@133.15.41.21's password: 
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+]0;p3-atk127@p3-atk127: ~p3-atk127@p3-atk127:~$ sudo curl-loader -f sample.cnf 
+parse_config_file - loaded 1 batches
+
+The configuration has been post-validated successfully.
+
+add_secondary_ip_addrs - setting secondary IP 192.168.197.1
+add_secondary_ip_addrs - successfully added 192.168.197.1/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.2
+add_secondary_ip_addrs - successfully added 192.168.197.2/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.3
+add_secondary_ip_addrs - successfully added 192.168.197.3/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.4
+add_secondary_ip_addrs - successfully added 192.168.197.4/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.5
+add_secondary_ip_addrs - successfully added 192.168.197.5/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.6
+add_secondary_ip_addrs - successfully added 192.168.197.6/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.7
+add_secondary_ip_addrs - successfully added 192.168.197.7/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.8
+add_secondary_ip_addrs - successfully added 192.168.197.8/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.9
+add_secondary_ip_addrs - successfully added 192.168.197.9/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.10
+add_secondary_ip_addrs - successfully added 192.168.197.10/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.11
+add_secondary_ip_addrs - successfully added 192.168.197.11/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.12
+add_secondary_ip_addrs - successfully added 192.168.197.12/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.13
+add_secondary_ip_addrs - successfully added 192.168.197.13/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.14
+add_secondary_ip_addrs - successfully added 192.168.197.14/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.15
+add_secondary_ip_addrs - successfully added 192.168.197.15/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.16
+add_secondary_ip_addrs - successfully added 192.168.197.16/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.17
+add_secondary_ip_addrs - successfully added 192.168.197.17/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.18
+add_secondary_ip_addrs - successfully added 192.168.197.18/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.19
+add_secondary_ip_addrs - successfully added 192.168.197.19/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.20
+add_secondary_ip_addrs - successfully added 192.168.197.20/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.21
+add_secondary_ip_addrs - successfully added 192.168.197.21/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.22
+add_secondary_ip_addrs - successfully added 192.168.197.22/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.23
+add_secondary_ip_addrs - successfully added 192.168.197.23/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.24
+add_secondary_ip_addrs - successfully added 192.168.197.24/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.25
+add_secondary_ip_addrs - successfully added 192.168.197.25/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.26
+add_secondary_ip_addrs - successfully added 192.168.197.26/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.27
+add_secondary_ip_addrs - successfully added 192.168.197.27/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.28
+add_secondary_ip_addrs - successfully added 192.168.197.28/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.29
+add_secondary_ip_addrs - successfully added 192.168.197.29/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.30
+add_secondary_ip_addrs - successfully added 192.168.197.30/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.31
+add_secondary_ip_addrs - successfully added 192.168.197.31/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.32
+add_secondary_ip_addrs - successfully added 192.168.197.32/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.33
+add_secondary_ip_addrs - successfully added 192.168.197.33/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.34
+add_secondary_ip_addrs - successfully added 192.168.197.34/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.35
+add_secondary_ip_addrs - successfully added 192.168.197.35/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.36
+add_secondary_ip_addrs - successfully added 192.168.197.36/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.37
+add_secondary_ip_addrs - successfully added 192.168.197.37/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.38
+add_secondary_ip_addrs - successfully added 192.168.197.38/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.39
+add_secondary_ip_addrs - successfully added 192.168.197.39/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.40
+add_secondary_ip_addrs - successfully added 192.168.197.40/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.41
+add_secondary_ip_addrs - successfully added 192.168.197.41/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.42
+add_secondary_ip_addrs - successfully added 192.168.197.42/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.43
+add_secondary_ip_addrs - successfully added 192.168.197.43/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.44
+add_secondary_ip_addrs - successfully added 192.168.197.44/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.45
+add_secondary_ip_addrs - successfully added 192.168.197.45/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.46
+add_secondary_ip_addrs - successfully added 192.168.197.46/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.47
+add_secondary_ip_addrs - successfully added 192.168.197.47/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.48
+add_secondary_ip_addrs - successfully added 192.168.197.48/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.49
+add_secondary_ip_addrs - successfully added 192.168.197.49/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.50
+add_secondary_ip_addrs - successfully added 192.168.197.50/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.51
+add_secondary_ip_addrs - successfully added 192.168.197.51/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.52
+add_secondary_ip_addrs - successfully added 192.168.197.52/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.53
+add_secondary_ip_addrs - successfully added 192.168.197.53/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.54
+add_secondary_ip_addrs - successfully added 192.168.197.54/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.55
+add_secondary_ip_addrs - successfully added 192.168.197.55/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.56
+add_secondary_ip_addrs - successfully added 192.168.197.56/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.57
+add_secondary_ip_addrs - successfully added 192.168.197.57/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.58
+add_secondary_ip_addrs - successfully added 192.168.197.58/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.59
+add_secondary_ip_addrs - successfully added 192.168.197.59/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.60
+add_secondary_ip_addrs - successfully added 192.168.197.60/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.61
+add_secondary_ip_addrs - successfully added 192.168.197.61/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.62
+add_secondary_ip_addrs - successfully added 192.168.197.62/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.63
+add_secondary_ip_addrs - successfully added 192.168.197.63/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.64
+add_secondary_ip_addrs - successfully added 192.168.197.64/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.65
+add_secondary_ip_addrs - successfully added 192.168.197.65/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.66
+add_secondary_ip_addrs - successfully added 192.168.197.66/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.67
+add_secondary_ip_addrs - successfully added 192.168.197.67/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.68
+add_secondary_ip_addrs - successfully added 192.168.197.68/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.69
+add_secondary_ip_addrs - successfully added 192.168.197.69/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.70
+add_secondary_ip_addrs - successfully added 192.168.197.70/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.71
+add_secondary_ip_addrs - successfully added 192.168.197.71/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.72
+add_secondary_ip_addrs - successfully added 192.168.197.72/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.73
+add_secondary_ip_addrs - successfully added 192.168.197.73/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.74
+add_secondary_ip_addrs - successfully added 192.168.197.74/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.75
+add_secondary_ip_addrs - successfully added 192.168.197.75/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.76
+add_secondary_ip_addrs - successfully added 192.168.197.76/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.77
+add_secondary_ip_addrs - successfully added 192.168.197.77/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.78
+add_secondary_ip_addrs - successfully added 192.168.197.78/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.79
+add_secondary_ip_addrs - successfully added 192.168.197.79/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.80
+add_secondary_ip_addrs - successfully added 192.168.197.80/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.81
+add_secondary_ip_addrs - successfully added 192.168.197.81/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.82
+add_secondary_ip_addrs - successfully added 192.168.197.82/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.83
+add_secondary_ip_addrs - successfully added 192.168.197.83/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.84
+add_secondary_ip_addrs - successfully added 192.168.197.84/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.85
+add_secondary_ip_addrs - successfully added 192.168.197.85/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.86
+add_secondary_ip_addrs - successfully added 192.168.197.86/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.87
+add_secondary_ip_addrs - successfully added 192.168.197.87/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.88
+add_secondary_ip_addrs - successfully added 192.168.197.88/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.89
+add_secondary_ip_addrs - successfully added 192.168.197.89/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.90
+add_secondary_ip_addrs - successfully added 192.168.197.90/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.91
+add_secondary_ip_addrs - successfully added 192.168.197.91/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.92
+add_secondary_ip_addrs - successfully added 192.168.197.92/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.93
+add_secondary_ip_addrs - successfully added 192.168.197.93/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.94
+add_secondary_ip_addrs - successfully added 192.168.197.94/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.95
+add_secondary_ip_addrs - successfully added 192.168.197.95/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.96
+add_secondary_ip_addrs - successfully added 192.168.197.96/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.97
+add_secondary_ip_addrs - successfully added 192.168.197.97/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.98
+add_secondary_ip_addrs - successfully added 192.168.197.98/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.99
+add_secondary_ip_addrs - successfully added 192.168.197.99/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.100
+add_secondary_ip_addrs - successfully added 192.168.197.100/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.101
+add_secondary_ip_addrs - successfully added 192.168.197.101/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.102
+add_secondary_ip_addrs - successfully added 192.168.197.102/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.103
+add_secondary_ip_addrs - successfully added 192.168.197.103/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.104
+add_secondary_ip_addrs - successfully added 192.168.197.104/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.105
+add_secondary_ip_addrs - successfully added 192.168.197.105/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.106
+add_secondary_ip_addrs - successfully added 192.168.197.106/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.107
+add_secondary_ip_addrs - successfully added 192.168.197.107/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.108
+add_secondary_ip_addrs - successfully added 192.168.197.108/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.109
+add_secondary_ip_addrs - successfully added 192.168.197.109/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.110
+add_secondary_ip_addrs - successfully added 192.168.197.110/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.111
+add_secondary_ip_addrs - successfully added 192.168.197.111/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.112
+add_secondary_ip_addrs - successfully added 192.168.197.112/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.113
+add_secondary_ip_addrs - successfully added 192.168.197.113/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.114
+add_secondary_ip_addrs - successfully added 192.168.197.114/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.115
+add_secondary_ip_addrs - successfully added 192.168.197.115/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.116
+add_secondary_ip_addrs - successfully added 192.168.197.116/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.117
+add_secondary_ip_addrs - successfully added 192.168.197.117/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.118
+add_secondary_ip_addrs - successfully added 192.168.197.118/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.119
+add_secondary_ip_addrs - successfully added 192.168.197.119/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.120
+add_secondary_ip_addrs - successfully added 192.168.197.120/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.121
+add_secondary_ip_addrs - successfully added 192.168.197.121/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.122
+add_secondary_ip_addrs - successfully added 192.168.197.122/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.123
+add_secondary_ip_addrs - successfully added 192.168.197.123/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.124
+add_secondary_ip_addrs - successfully added 192.168.197.124/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.125
+add_secondary_ip_addrs - successfully added 192.168.197.125/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.126
+add_secondary_ip_addrs - successfully added 192.168.197.126/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.127
+add_secondary_ip_addrs - successfully added 192.168.197.127/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.128
+add_secondary_ip_addrs - successfully added 192.168.197.128/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.129
+add_secondary_ip_addrs - successfully added 192.168.197.129/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.130
+add_secondary_ip_addrs - successfully added 192.168.197.130/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.131
+add_secondary_ip_addrs - successfully added 192.168.197.131/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.132
+add_secondary_ip_addrs - successfully added 192.168.197.132/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.133
+add_secondary_ip_addrs - successfully added 192.168.197.133/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.134
+add_secondary_ip_addrs - successfully added 192.168.197.134/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.135
+add_secondary_ip_addrs - successfully added 192.168.197.135/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.136
+add_secondary_ip_addrs - successfully added 192.168.197.136/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.137
+add_secondary_ip_addrs - successfully added 192.168.197.137/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.138
+add_secondary_ip_addrs - successfully added 192.168.197.138/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.139
+add_secondary_ip_addrs - successfully added 192.168.197.139/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.140
+add_secondary_ip_addrs - successfully added 192.168.197.140/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.141
+add_secondary_ip_addrs - successfully added 192.168.197.141/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.142
+add_secondary_ip_addrs - successfully added 192.168.197.142/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.143
+add_secondary_ip_addrs - successfully added 192.168.197.143/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.144
+add_secondary_ip_addrs - successfully added 192.168.197.144/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.145
+add_secondary_ip_addrs - successfully added 192.168.197.145/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.146
+add_secondary_ip_addrs - successfully added 192.168.197.146/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.147
+add_secondary_ip_addrs - successfully added 192.168.197.147/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.148
+add_secondary_ip_addrs - successfully added 192.168.197.148/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.149
+add_secondary_ip_addrs - successfully added 192.168.197.149/16 IP-address.
+add_secondary_ip_addrs - setting secondary IP 192.168.197.150
+add_secondary_ip_addrs - successfully added 192.168.197.150/16 IP-address.
+main - added IP-addresses to the loading network interface.
+
+RUNNING LOAD
+
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:0 sec, clients:150, CAPS-curr:150000):
+H/F   Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:1 secs, CAPS-average:150):
+H/F   Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:0):
+H/F   Req:149,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:6208B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:3 secs, CAPS-average:50):
+H/F   Req:149,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:6208B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:0):
+H/F   Req:1,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:41B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:6 secs, CAPS-average:25):
+H/F   Req:150,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:3125B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:11):
+H/F   Req:5,1xx:0,2xx:38,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:8906ms,D-2xx:8906ms,Ti:8219B/s,To:208B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:9 secs, CAPS-average:20):
+H/F   Req:155,1xx:0,2xx:38,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:8906ms,D-2xx:8906ms,Ti:2739B/s,To:2152B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:231):
+H/F   Req:698,1xx:0,2xx:695,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:1407ms,D-2xx:1407ms,Ti:151105B/s,To:29083B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:12 secs, CAPS-average:73):
+H/F   Req:853,1xx:0,2xx:733,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:1795ms,D-2xx:1795ms,Ti:39831B/s,To:8885B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:204):
+H/F   Req:626,1xx:0,2xx:611,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:624ms,D-2xx:624ms,Ti:133052B/s,To:26083B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:15 secs, CAPS-average:99):
+H/F   Req:1479,1xx:0,2xx:1344,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:1262ms,D-2xx:1262ms,Ti:58475B/s,To:12325B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:235):
+H/F   Req:682,1xx:0,2xx:711,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:280ms,D-2xx:280ms,Ti:154275B/s,To:28416B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:18 secs, CAPS-average:122):
+H/F   Req:2161,1xx:0,2xx:2055,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:922ms,D-2xx:922ms,Ti:74442B/s,To:15006B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:225):
+H/F   Req:672,1xx:0,2xx:683,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:288ms,D-2xx:288ms,Ti:148178B/s,To:28000B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:21 secs, CAPS-average:137):
+H/F   Req:2833,1xx:0,2xx:2738,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:763ms,D-2xx:763ms,Ti:84975B/s,To:16863B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:218):
+H/F   Req:690,1xx:0,2xx:657,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:326ms,D-2xx:326ms,Ti:142943B/s,To:28750B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:24 secs, CAPS-average:147):
+H/F   Req:3523,1xx:0,2xx:3395,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:678ms,D-2xx:678ms,Ti:92221B/s,To:18348B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:223):
+H/F   Req:649,1xx:0,2xx:668,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:262ms,D-2xx:262ms,Ti:145000B/s,To:27041B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:27 secs, CAPS-average:156):
+H/F   Req:4172,1xx:0,2xx:4063,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:609ms,D-2xx:609ms,Ti:98085B/s,To:19314B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:221):
+H/F   Req:697,1xx:0,2xx:670,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:258ms,D-2xx:258ms,Ti:145652B/s,To:29041B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:30 secs, CAPS-average:162):
+H/F   Req:4869,1xx:0,2xx:4733,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:559ms,D-2xx:559ms,Ti:102842B/s,To:20287B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:215):
+H/F   Req:635,1xx:0,2xx:645,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:351ms,D-2xx:351ms,Ti:140342B/s,To:26458B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:33 secs, CAPS-average:167):
+H/F   Req:5504,1xx:0,2xx:5378,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:534ms,D-2xx:534ms,Ti:106251B/s,To:20848B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:219):
+H/F   Req:660,1xx:0,2xx:667,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:300ms,D-2xx:300ms,Ti:145040B/s,To:27500B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:36 secs, CAPS-average:171):
+H/F   Req:6164,1xx:0,2xx:6045,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:508ms,D-2xx:508ms,Ti:109484B/s,To:21402B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:217):
+H/F   Req:662,1xx:0,2xx:653,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:316ms,D-2xx:316ms,Ti:141798B/s,To:27583B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:39 secs, CAPS-average:175):
+H/F   Req:6826,1xx:0,2xx:6698,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:489ms,D-2xx:489ms,Ti:111969B/s,To:21878B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:227):
+H/F   Req:662,1xx:0,2xx:686,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:269ms,D-2xx:269ms,Ti:148990B/s,To:27583B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:42 secs, CAPS-average:179):
+H/F   Req:7488,1xx:0,2xx:7384,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:468ms,D-2xx:468ms,Ti:114614B/s,To:22285B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:191):
+H/F   Req:615,1xx:0,2xx:593,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:373ms,D-2xx:373ms,Ti:128770B/s,To:25625B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:45 secs, CAPS-average:180):
+H/F   Req:8103,1xx:0,2xx:7977,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:460ms,D-2xx:460ms,Ti:115557B/s,To:22508B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:220):
+H/F   Req:623,1xx:0,2xx:650,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:320ms,D-2xx:320ms,Ti:140933B/s,To:25958B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:48 secs, CAPS-average:182):
+H/F   Req:8726,1xx:0,2xx:8627,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:449ms,D-2xx:449ms,Ti:117143B/s,To:22723B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:184):
+H/F   Req:601,1xx:0,2xx:555,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:368ms,D-2xx:368ms,Ti:120452B/s,To:25041B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:51 secs, CAPS-average:182):
+H/F   Req:9327,1xx:0,2xx:9182,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:444ms,D-2xx:444ms,Ti:117338B/s,To:22860B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:197):
+H/F   Req:596,1xx:0,2xx:594,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:455ms,D-2xx:455ms,Ti:128985B/s,To:24833B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:54 secs, CAPS-average:183):
+H/F   Req:9923,1xx:0,2xx:9776,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:444ms,D-2xx:444ms,Ti:117985B/s,To:22969B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:235):
+H/F   Req:661,1xx:0,2xx:715,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:280ms,D-2xx:280ms,Ti:155204B/s,To:27541B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:57 secs, CAPS-average:186):
+H/F   Req:10584,1xx:0,2xx:10491,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:432ms,D-2xx:432ms,Ti:119944B/s,To:23210B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:210):
+H/F   Req:581,1xx:0,2xx:659,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:374ms,D-2xx:374ms,Ti:143092B/s,To:24208B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:60 secs, CAPS-average:187):
+H/F   Req:11165,1xx:0,2xx:11150,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:428ms,D-2xx:428ms,Ti:121101B/s,To:23260B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:212):
+H/F   Req:645,1xx:0,2xx:611,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:358ms,D-2xx:358ms,Ti:132580B/s,To:26875B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:63 secs, CAPS-average:189):
+H/F   Req:11810,1xx:0,2xx:11761,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:424ms,D-2xx:424ms,Ti:121648B/s,To:23432B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:203):
+H/F   Req:609,1xx:0,2xx:616,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:377ms,D-2xx:377ms,Ti:133978B/s,To:25375B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:66 secs, CAPS-average:189):
+H/F   Req:12419,1xx:0,2xx:12377,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:421ms,D-2xx:421ms,Ti:122208B/s,To:23520B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:219):
+H/F   Req:726,1xx:0,2xx:659,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:325ms,D-2xx:325ms,Ti:143506B/s,To:30250B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:69 secs, CAPS-average:191):
+H/F   Req:13145,1xx:0,2xx:13036,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:416ms,D-2xx:416ms,Ti:123134B/s,To:23813B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+[2J============  loading batch is: p3         ======================================
+--------------------------------------------------------------------------------
+Interval stats (latest:3 sec, clients:150, CAPS-curr:210):
+H/F   Req:661,1xx:0,2xx:634,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:364ms,D-2xx:364ms,Ti:137639B/s,To:27541B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+--------------------------------------------------------------------------------
+Summary stats (runs:72 secs, CAPS-average:191):
+H/F   Req:13806,1xx:0,2xx:13670,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:413ms,D-2xx:413ms,Ti:123739B/s,To:23968B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+=================================================================================
+ Manual: clients:max[150],curr[150]. Inc num: [+|*].
+=================================================================================
+H/F   Req:378,1xx:0,2xx:514,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:330ms,D-2xx:330ms,Ti:167388B/s,To:23625B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+
+=======================================================================================
+End of the test for batch: p3        
+=======================================================================================
+
+
+Test total duration was 74 seconds and CAPS average 186:
+H/F   Req:14184,1xx:0,2xx:14184,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:409ms,D-2xx:409ms,Ti:124918B/s,To:23959B/s
+H/F/S Req:0,1xx:0,2xx:0,3xx:0,4xx:0,5xx:0,Err:0,T-Err:0,D:0ms,D-2xx:0ms,Ti:0B/s,To:0B/s
+
+Exited. For details look in the files:
+- p3.log for errors and traces;
+- p3.txt for loading statistics;
+- p3.ctx for virtual client based statistics.
+- p3.ops for operational statistics.
+Add -v and -u options to the command line for verbose output to p3.log file.
+]0;p3-atk127@p3-atk127: ~p3-atk127@p3-atk127:~$ [K
