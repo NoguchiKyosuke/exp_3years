@@ -1,0 +1,171 @@
+\documentclass[dvipdfmx]{jsarticle}
+\usepackage{ulem} %%下線、二重下線で使用
+\usepackage{multirow} %%作表で使用する場合あり
+\usepackage{graphicx} %%図版の貼り付けに使用
+\usepackage{here} %%図版の貼り付けに使用
+\usepackage{multicol} %%マルチカラムに使用
+\usepackage{subcaption} %%2カラムの写真表示に使用
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{url}
+%%ソースリストの貼り付けに使用
+\usepackage[utf8]{inputenc}
+\usepackage[ipaex]{pxchfon}
+\usepackage{amsmath} %%pmatrixに使用
+\usepackage{svg}
+
+\usepackage{listings}
+% listings パッケージの設定
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    numbers=left,
+    stepnumber=1,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    tabsize=2,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=flexible,
+    keepspaces=true,
+    literate={"}{\texttt{"}}1
+}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{flushright}
+\begin{tabular}{|c|c|c|c|}
+\hline
+受付 & 月　日 & 評価 & \;\;\;\;\\
+\hline
+\end{tabular}
+\end{flushright}
+
+
+\begin{center}
+    \vspace{100truept}
+
+    \Huge 情報知能・工学実験　報告書
+
+    \begin{tabular}{ |c|c| } 
+    \hline
+    実験題目 &  \\ 
+    \hline
+    \end{tabular}
+
+    \vspace{30truept}
+
+    {\normalsize
+    \begin{tabular}{ |c|c| } 
+    \hline
+    実験実施日 &  令和 年 月 日 \\
+    \hline
+    第1回 &  令和 年 月 日 \\
+    \hline
+    第2回 &  令和 年 月 日 \\
+    \hline
+    第3回 &  令和 年 月 日 \\
+    \hline
+    第4回 &  令和 年 月 日 \\
+    \hline
+    第5回 &  令和 年 月 日 \\
+    \hline
+    第6回 &  令和 年 月 日 \\
+    \hline
+    \end{tabular}
+    }
+
+    \vspace{30truept}
+
+    {\normalsize
+    \begin{tabular}{ |c|c| } 
+    \hline
+    学籍番号 & 氏名 \\ 
+    \hline
+     &  \\ 
+    \hline
+    \end{tabular}
+    }
+
+    \vspace{30truept}
+
+    {\normalsize
+    \begin{tabular}{ |c|c| } 
+    \hline
+    概要 &  \\ 
+    \hline
+    \end{tabular}
+    }
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\section{目的}
+近年のネットワーク技術の発展によりWebサービスが日常において不可欠な技術となっている。そのため、Webサービスの停止そのものが社会に与える影響が大きい。Webサービスの停止は外部からの攻撃によって起こされることがある。その種類は様々であるが、一つに「DoS攻撃」というものがある。DoS攻撃はセキュリティの脆弱なコンピュータに対して使用される。DoS攻撃をされたコンピュータはロードが急増し、サービスの提供が阻害されてしまうことが発生する。攻撃されたサービス事業者はこの攻撃によって得られる報酬が低減してしまう。よってWebサービスを運営するにあたってDoS攻撃の対策は必要不可欠である。
+
+本実験において、ネットワークの基本構造について知り、DoS攻撃に対する対策法を身に着けることを目的とする。
+
+\section{解説}
+\subsection{DoS攻撃について}
+DoS(Denial-of-Service)攻撃は特定のサーバやネットワークデバイスのwebサービスを停止させる攻撃手段の一つである。\\
+DoS攻撃の一つにDDoS(distributed Denial-of-Service)攻撃がある。DDoS攻撃は、たくさんのコンピュータが同時に攻撃するプログラムを特定のサーバに対して実行する攻撃方法である。
+
+Dos攻撃の方法には、サーバの脆弱性を悪用する攻撃とサーバに過負荷をかける攻撃の2つがある。サーバに脆弱性がある場合は、攻撃者に技術的なアドバンテージを利用されることによって攻撃を仕掛けられる。ただし、脆弱性を悪用する攻撃はソフトウェアのアップデートによって防ぐことができる。サーバに過負荷をかける攻撃は、意図的に通信手段をブロックすることやサーバが処理しきられないほどのロードをすることによってネットワークを混雑させることができる。そのため、ネットワークとサーバの間を無駄なパケットで埋め尽くすので、対策をサーバ内で施すことは難しいとされている。一方で、サーバ側ができる対策としてはファイヤーウォールを設定するという方法がある。
+
+いかに様々なDos攻撃について記述する。
+
+\subsubsection{UDP Flood}
+通信プロトコルの一つであるUDPの特性を悪用する攻撃方法である。
+長時間に大量のUDPパケットを送信することで攻撃を実行する。
+
+\subsubsection{Ping Flood}
+通信情報を取得するプロトコルICMPを悪用する攻撃方法である。
+大量のICMPパケットを送り付けることによって攻撃する。
+
+\subsubsection{SYN Flood}
+TCP通信を確立するSYNを大量に送りつける攻撃方法である。
+受信側の攻撃対象のサーバはSYNパケットを送り返した際にACKをタイムアウトまで待ち続けなければならないため、メモリを消費してしまうという攻撃方法である。
+
+\subsubsection{Connection Flood}
+コネクションが確立した状態を長時間つづけることでソケットを占有する攻撃方法である。
+
+\subsubsection{HTTP GET Flood}
+TCPコネクションが確立したのちにHTTP GETリクエストを大量に送信する攻撃方法である。シンプルな攻撃手段としてF5攻撃がある。F5はブラウザ上で押下することでwebページをリロードすることが可能であり、HTTP GETを短時間で大量に送ることが可能である。
+
+\subsection{仮想マシンについて}
+仮想マシンはコンピュータの操作をエミュレートするソフトウェアであり、この技術を使うことで一つの物理コンピュータで複数のOSを扱うことが可能となる。
+例えば、Windows OS上でLinux OSの環境を構築することが可能なる。
+webサービスはここ数年で大規模化され、それに伴いコストカットが重要となった。
+そこで、コストの軽減のために一つのコンピュータで複数のOSを扱えるような仮想マシンの技術が開発された。
+
+仮想マシンを動かすためのソフトウェアをVMM(Virtual Machine Monitor0)と呼ぶ。
+VMMにはホスト型VMMとハイパーバイザ型VMMの2種類がある。
+ホスト型VMMはホストOS上で実行され、ハイパーバイザ型VMMはインストールと実行が直接ハードウェア上で実行されるVMMである。
+ここで、ハードウェアに直接ダウンロードされたOSをホストOSと呼ぶ。
+ホスト型VMMはアプリケーションとして扱うことができるため、インストールや使い方が簡単である。一方、ハイパーバイザ型VMMはハードウェアとの間のレイヤーがホスト型よりも少ないため、実行時のオーバヘッドが少なくなる。一般的なVMMとして、VirtualBoxやVMwareはホスト型、KVM(Kernel-based Virtual Machine)はハイパーバイザ型である。本実験では、ハイパーバイザ型を使用する。
+
+\section{実験環境}
+
+\section{実験課題}
+\subsection{基礎実験}
+\subsection{攻撃者判定実験}
+
+\section{実験結果}
+
+\section{調査課題}
+
+
+\pagebreak
+\begin{thebibliography}{9}
+\end{thebibliography}
+
+\end{document}
