@@ -302,7 +302,7 @@ vm.drop_caches = 3
 以下の図\ref{fig:cpu_exp1}にTIMER\_AFTER\_URL\_SLEEPの値を200, 400, 800に変更した際のCPU使用率のグラフを示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/exp1/cpu.png}
+    \includegraphics[width=0.8\textwidth]{images/exp1/cpu2.png}
     \caption{基礎実験のCPU使用率のグラフ}
     \label{fig:cpu_exp1}
 \end{figure}
@@ -310,7 +310,7 @@ vm.drop_caches = 3
 以下の図\ref{fig:mem_exp1}にTIMER\_AFTER\_URL\_SLEEPの値を200, 400, 800に変更した際のメモリ使用率のグラフを示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/exp1/mem_percent.png}
+    \includegraphics[width=0.8\textwidth]{images/exp1/mem2.png}
     \caption{基礎実験のメモリ使用率のグラフ}
     \label{fig:mem_exp1}
 \end{figure}
@@ -318,12 +318,22 @@ vm.drop_caches = 3
 以下の図\ref{fig:access_exp1}にTIMER\_AFTER\_URL\_SLEEPの値を200, 400, 800に変更した際のアクセス数のグラフを示す。
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/exp1/freq.png}
+    \includegraphics[width=0.8\textwidth]{images/exp1/freq2.png}
     \caption{基礎実験のアクセス数のグラフ}
     \label{fig:access_exp1}
 \end{figure}
 
-図\ref{fig:cpu_exp1}から、TIMER\_AFTER\_URL\_SLEEPの値が200と400の時のCPU使用率は、800の時よりも高いことがわかる。また、TIMER\_AFTER\_URL\_SLEEPのあたい
+図\ref{fig:cpu_exp1}において、グラフのうち変化率が最大になった後はCPU使用率が50\%を超える時間が続き、変化率が最小になった後はCPU使用率が5\%を下回る時間が続いていることがわかる。よって、攻撃によってCPUに負荷がかかっているのは、CPU使用率が50\%を超える時間帯であると考えられる。\\
+また、CPU使用率が50\%を超える時間帯において、TIMER\_AFTER\_URL\_SLEEPの値が200と400の時のCPU使用率は、800の時よりも高い時間が長いことがわかる。また、TIMER\_AFTER\_URL\_SLEEPの値が大きいほどCPUの使用率が50\%を超える時間が長くなっていることがわかる。よって、TIMER\_AFTER\_URL\_SLEEPの値が小さいほどCPU使用率への影響が大きく、値が大きいほど攻撃の影響が長く続くことがわかる。\\
+
+図\ref{fig:mem_exp1}において、グラフのうち変化率が大きくなったのちにメモリ使用率が0.5を超える時間が続き、CPU使用率が5\%を下回っている時間において変化率が徐々に小さくなっていることがわかる。攻撃の受け始めの変化率がCPU使用率よりもなだらか上昇している。また、CPU使用率は攻撃が終わると1秒間で50\%以上の値から5\%以下の値に減少するのに対して、メモリ使用率は、20秒以上経過したのちにで10\%減少するので、CPU使用率よりもなだらかに減少していることがわかる。よって、攻撃によってメモリに負荷がかかっているのは、メモリ使用率が0.5を超える時間帯であると考えられる。\\
+
+図\ref{fig:freq_exp1}において、グラフのうち変化率が最大になった後はアクセス数が100回を超える時間が続き、変化率が最小になった後はアクセス数が5回を下回る時間が続いていることがわかる。よって、攻撃によってアクセス数に影響がかかっているのは、アクセス数が100回を超える時間帯であると考えられる。\\
+また、アクセス数が100回を超える時間帯において、TIMER\_AFTER\_URL\_SLEEPの値が200と400の時のアクセス数は、800の時よりも高い時間が長いことがわかる。また、TIMER\_AFTER\_URL\_SLEEPの値が大きいほどアクセス数が50\%を超える時間が長くなっていることがわかる。よって、TIMER\_AFTER\_URL\_SLEEPの値が小さいほどアクセス数への影響が大きく、値が大きいほど攻撃の影響が長く続くことがわかる。\\
+
+図\ref{fig:cpu_exp1}、図\ref{fig:freq_exp1}より、CPU使用率とアクセス数の増加率が最大のタイミングと最小のタイミングが同じであることがわかる。よって、攻撃によってアクセス数が増えること自体がCPU使用率の増加に影響していると考えられる。対して、メモリ使用率は増加率の増え方がなめらかであり、増加はCPUの使用率が50\%以上になった時間よりも先に始まっていることから、攻撃によってアクセス数が増えたタイミングでapacheが複数のタスクの処理をするためにメモリをたくさん確保し、その後CPUがそのタスクを処理しているため、CPUの使用率がメモリの使用率の増加よりも遅れていると考えられる。
+
+
 
 
 

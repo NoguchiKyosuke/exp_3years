@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2026.4.9)  3 MAY 2026 18:05
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2026.4.9)  3 MAY 2026 19:05
 entering extended mode
  restricted \write18 enabled.
 **main.tex
@@ -558,16 +558,32 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 244.
  [4]
-File: images/exp1/cpu.png Graphic file (type bmp)
-<images/exp1/cpu.png>
-File: images/exp1/mem_percent.png Graphic file (type bmp)
-<images/exp1/mem_percent.png>
+File: images/exp1/cpu2.png Graphic file (type bmp)
+<images/exp1/cpu2.png>
+File: images/exp1/mem2.png Graphic file (type bmp)
+<images/exp1/mem2.png>
  [5]
-File: images/exp1/freq.png Graphic file (type bmp)
-<images/exp1/freq.png>
- [6] [7]
+File: images/exp1/freq2.png Graphic file (type bmp)
+<images/exp1/freq2.png>
+ [6]
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 331.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 331.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 331.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 331.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 337.
+
+LaTeX Warning: Reference `fig:freq_exp1' on page 7 undefined on input line 331.
+
+
+LaTeX Warning: Reference `fig:freq_exp1' on page 7 undefined on input line 334.
+
+[7]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 347.
 
 [8] (./main.aux)
  ***********
@@ -575,18 +591,22 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 9768 strings out of 468177
- 169035 string characters out of 5434823
+ 9773 strings out of 468177
+ 169069 string characters out of 5434823
  883956 words of memory out of 5000000
- 38524 multiletter control sequences out of 15000+600000
- 640831 words of font info for 107 fonts, out of 8000000 for 9000
+ 38528 multiletter control sequences out of 15000+600000
+ 641139 words of font info for 108 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  94i,8n,93p,967b,1334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (9 pages, 26700 bytes).
+Output written on main.dvi (9 pages, 31532 bytes).
 
 main.dvi -> main.pdf
 [1][2][3][4][5][6][7][8][9]
-516178 bytes written
+520161 bytes written
