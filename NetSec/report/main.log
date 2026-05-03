@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2026.4.9)  24 APR 2026 15:34
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2026.4.9)  3 MAY 2026 13:23
 entering extended mode
  restricted \write18 enabled.
 **main.tex
@@ -466,6 +466,8 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2025-10-09 L3 backend support: dvipdfmx
 \g__graphics_track_int=\count342
@@ -535,11 +537,20 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 126.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 126.
- [1] [2] [3]
+ [1] [2]
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 214.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 214.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 215.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 215.
+ [3] [4]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 221.
+LaTeX Warning: Empty `thebibliography' environment on input line 259.
 
-[4] (./main.aux)
+[5] (./main.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -547,16 +558,16 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9328 strings out of 468177
- 164716 string characters out of 5434823
- 805629 words of memory out of 5000000
- 38097 multiletter control sequences out of 15000+600000
- 639158 words of font info for 99 fonts, out of 8000000 for 9000
+ 9711 strings out of 468177
+ 168003 string characters out of 5434823
+ 842956 words of memory out of 5000000
+ 38475 multiletter control sequences out of 15000+600000
+ 640496 words of font info for 106 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 94i,8n,93p,967b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,93p,967b,1334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.dvi (5 pages, 14008 bytes).
+Output written on main.dvi (6 pages, 18584 bytes).
 
 main.dvi -> main.pdf
-[1][2][3][4][5]
-124258 bytes written
+[1][2][3][4][5][6]
+145068 bytes written
